@@ -1,0 +1,2 @@
+NYU_ResNet-UpProj.npy filter=lfs diff=lfs merge=lfs -text
+nyu_depth_v2_labeled.mat filter=lfs diff=lfs merge=lfs -text

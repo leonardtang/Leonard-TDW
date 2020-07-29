@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e2b62720-7e71-45a3-9225-58df0ea75f44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/NYU_ResNet-UpProj.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/fcrn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/flow_transforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/nyu_depth_v2_labeled.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/result_521.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/result_599.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/testIdxs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/trainIdxs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/FCRN/weights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/photoreal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare_COCO_TDW/photoreal/img_0000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../objects_changing_positions/objects_positions_images/id_0000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../objects_changing_positions/objects_positions_images/img_0000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../example_controllers/photoreal2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../example_controllers/photoreal2/img_0000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../objects_changing_positions/generate_scenes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../objects_changing_positions/generate_scenes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../objects_changing_positions/objects_positions_images/id_0199.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../objects_changing_positions/objects_positions_images/img_0199.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1d1IR5aEjig0CXTr36xyHvFrbm2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../compare_COCO_TDW" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../compare_COCO_TDW/FCRN" />
+      <recent name="$PROJECT_DIR$/FCRN" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../compare_COCO_TDW" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.photoreal">
+    <configuration name="photoreal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="depth_estimation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../compare_COCO_TDW" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../compare_COCO_TDW/photoreal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="proc_gen_interior_design" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="depth_estimation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../compare_COCO_TDW" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../compare_COCO_TDW/proc_gen_interior_design.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.photoreal" />
+        <item itemvalue="Python.proc_gen_interior_design" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2b62720-7e71-45a3-9225-58df0ea75f44" name="Default Changelist" comment="" />
+      <created>1591586160912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591586160912</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/FCRN" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="269" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591589904507">
+      <screen x="0" y="23" width="1536" height="874" />
+    </state>
+    <state x="432" y="269" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1536.874@0.23.1536.874" timestamp="1591589904507" />
+    <state x="432" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1536.876@0.23.1536.876" timestamp="1591589427706" />
+    <state width="1515" height="258" key="GridCell.Tab.0.bottom" timestamp="1591590492322">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1515" height="258" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1591590492322" />
+    <state width="1515" height="258" key="GridCell.Tab.0.center" timestamp="1591590492321">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1515" height="258" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1591590492321" />
+    <state width="1515" height="258" key="GridCell.Tab.0.left" timestamp="1591590492321">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1515" height="258" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1591590492321" />
+    <state width="1515" height="258" key="GridCell.Tab.0.right" timestamp="1591590492322">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1515" height="258" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1591590492322" />
+    <state x="269" y="132" key="SettingsEditor" timestamp="1591589658454">
+      <screen x="0" y="23" width="1536" height="876" />
+    </state>
+    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1591586618733" />
+    <state x="269" y="132" key="SettingsEditor/0.23.1536.876@0.23.1536.876" timestamp="1591589658454" />
+    <state x="0" y="75" width="1419" height="823" key="dock-window-1" timestamp="1591587548263">
+      <screen x="0" y="23" width="1536" height="876" />
+    </state>
+    <state x="0" y="75" width="1419" height="823" key="dock-window-1/0.23.1536.876@0.23.1536.876" timestamp="1591587548263" />
+  </component>
+</project>
