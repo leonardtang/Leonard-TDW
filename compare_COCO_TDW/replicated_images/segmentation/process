@@ -1,0 +1,8 @@
+echo "Running bash masks"
+/bin/bash masks
+
+echo "Subtracting masks"
+python3 subtract.py
+
+echo "Bounding boxes"
+Python3 bbox.py

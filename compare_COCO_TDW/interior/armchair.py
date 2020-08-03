@@ -19,7 +19,7 @@ class ProcGenInteriorDesign(Controller):
         self.load_streamed_scene(scene="tdw_room_2018")
 
         # Disable physics.
-        self.communicate({"$type": "set_gravity",
+        self.communicate({"$type": "simulate_physics",
                           "value": False})
 
         # Add the avatar.
@@ -31,6 +31,14 @@ class ProcGenInteriorDesign(Controller):
                           "field_of_view": 68.0,
                           "avatar_id": "avatar"})
 
+        # Enable image capture
+        scene_data = self.communicate({"$type": "set_pass_masks",
+                                       "avatar_id": "avatar",
+                                       "pass_masks": ["_id"]})
+
+        self.communicate({"$type": "send_images",
+                          "frequency": "always"})
+
         chair_id = self.add_object(model_name="ligne_roset_armchair",
                                    position={"x": -1.5, "y": 0, "z": 4},
                                    library="models_full.json")
@@ -40,6 +48,13 @@ class ProcGenInteriorDesign(Controller):
                           "id": chair_id,
                           "is_world": True})
 
+        scene_data = self.communicate({"$type": "look_at_position",
+                                       "avatar_id": "avatar",
+                                       "position": TDWUtils.array_to_vector3([0, 0.8, 4])})
+
+        images = Images(scene_data[0])
+        TDWUtils.save_images(images, "armchair_1", output_directory="replicated_images")
+
         record = ModelLibrarian(library='models_full.json').get_record("b05_tv1970")
         self.communicate({"$type": "add_object",
                           "name": "b05_tv1970",
@@ -48,34 +63,52 @@ class ProcGenInteriorDesign(Controller):
                           "position": {"x": 0, "y": 0, "z": 3.5},
                           "category": record.wcategory,
                           "id": self.get_unique_id()})
+        scene_data = self.communicate({"$type": "look_at_position",
+                                       "avatar_id": "avatar",
+                                       "position": TDWUtils.array_to_vector3([0, 0.8, 4])})
+        images = Images(scene_data[0])
+        TDWUtils.save_images(images, "armchair_2", output_directory="replicated_images")
+
         self.add_object(model_name="side_table_wood",
                         position={"x": -2.5, "y": 0, "z": 4},
                         library="models_full.json")
+        scene_data = self.communicate({"$type": "look_at_position",
+                                       "avatar_id": "avatar",
+                                       "position": TDWUtils.array_to_vector3([0, 0.8, 4])})
+        images = Images(scene_data[0])
+        TDWUtils.save_images(images, "armchair_3", output_directory="replicated_images")
+
         side_table = self.add_object(model_name="side_table_wood",
                                      position={"x": 1.5, "y": 0, "z": 4},
                                      library="models_full.json")
         side_table_bounds = self.get_bounds_data(side_table)
-
         top = side_table_bounds.get_top(0)
+        scene_data = self.communicate({"$type": "look_at_position",
+                                       "avatar_id": "avatar",
+                                       "position": TDWUtils.array_to_vector3([0, 0.8, 4])})
+        images = Images(scene_data[0])
+        TDWUtils.save_images(images, "armchair_4", output_directory="replicated_images")
+
         self.add_object(model_name="acacia_table_lamp_jamie_young",
                         position={"x": 1.5, "y": top[1], "z": 4},
                         library="models_full.json")
+        scene_data = self.communicate({"$type": "look_at_position",
+                                       "avatar_id": "avatar",
+                                       "position": TDWUtils.array_to_vector3([0, 0.8, 4])})
+        images = Images(scene_data[0])
+        TDWUtils.save_images(images, "armchair_5", output_directory="replicated_images")
 
         # Enable image capture
         self.communicate({"$type": "set_pass_masks",
                           "avatar_id": "avatar",
-                          "pass_masks": ["_img", "_id"]})
-
-        self.communicate({"$type": "send_images",
-                          "frequency": "always"})
+                          "pass_masks": ["_img"]})
 
         scene_data = self.communicate({"$type": "look_at_position",
                                        "avatar_id": "avatar",
-                                       "position": TDWUtils.array_to_vector3([0, 0.8, 0])})
+                                       "position": TDWUtils.array_to_vector3([0, 0.8, 4])})
 
         images = Images(scene_data[0])
-
-        TDWUtils.save_images(images, "armchair_1", output_directory="replicated_images")
+        TDWUtils.save_images(images, "armchair", output_directory="../replicated_images/segmentation")
 
     def get_bounds_data(self, object_id):
         resp = self.communicate({"$type": "send_bounds",

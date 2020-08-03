@@ -1,0 +1,8 @@
+# Getting crops for all single-object IMGs
+
+for f in img*.png
+do
+  echo "Processing $f file..."
+  python3 crop.py ${f/img/id}_mask.npy $f 
+done
+

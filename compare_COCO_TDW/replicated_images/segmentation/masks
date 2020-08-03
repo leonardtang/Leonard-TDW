@@ -1,0 +1,8 @@
+# Getting segmentation masks for all images
+
+for f in id*.png
+do if [[ $f != *"bbox"* ]]; then
+  echo "Processing $f file..."
+  python3 masks.py $f
+  fi
+done
